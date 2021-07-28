@@ -83,7 +83,7 @@ def runModel(X, Y, model, modelName, i, saveModels=True):
         elif modelName == 'Decision tree':
             joblib.dump(model, 'models/model_DecisionTree.joblib')
         elif modelName == 'K-nearest neighbours':
-            joblib.dump(model, 'models/model_KNearestNeighbours')
+            joblib.dump(model, 'models/model_KNearestNeighbours.joblib')
         elif modelName == 'Random forest':
             joblib.dump(model, 'models/model_RandomForest.joblib')
         elif modelName == 'MLP':
